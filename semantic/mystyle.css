@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: beige;
+    border: 1px solid blue;
+    color: orange;
+    height: 100Spx;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+}
+
+ul.menu{
+    display: flex;
+    float: right;
+    text-decoration: none;
+}
+ul.menu a{
+    text-decoration: none;
+}
+
+.sec01 {
+    border: 1px solid salmon;
+}
+.sec01 h1 {
+    color: blue;
+}
+.sec01 h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+.atc01 {
+    border: 2px dotted greenyellow;
+    font-size: 2rem;
+    color: brown;
+    background-image: url(JP01.jpg);
+}
+.atc02 {
+    border: 2px dotted mediumpurple;
+}
+.aside01 {
+    border: 3px solid blue;
+    float: right;
+    background-color: beige;
+}
