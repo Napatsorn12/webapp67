@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เข้าสู่ระบบ</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <main>
+        <section class="login-container">
+            <h1>เข้าสู่ระบบผู้ใช้ทั่วไป</h1>
+            <form action="/login" method="post">
+                <img src="user.png" alt="ผู้ใช้งาน">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th><label for="username">ชื่อผู้ใช้:</label></th>
+                            <td><input type="text" id="username" name="username" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="password">รหัสผ่าน:</label></th>
+                            <td><input type="password" id="password" name="password" required></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="เข้าสู่ระบบ">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p id="error-message" class="error-message">กรุณากรอกชื่อผู้ใช้และรหัสผ่านให้ครบถ้วน</p>
+                            </td>
+                        </tr>
+                    </tbody>  
+                </table>
+            </form>
+            <hr>
+            <a href="member.html" class="register-btn">ลงทะเบียน</a>
+        </section>
+    </main>
+</body>
+</html>
