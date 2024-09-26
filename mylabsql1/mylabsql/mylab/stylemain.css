@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0d7f5; /* สีพื้นหลังม่วงอ่อน */
+    color: #5a4e8f; /* สีข้อความเข้ม */
+    text-align: center;
+    padding: 5px;
+    margin: 0; /* ลบ margin ของ body */
+    display: flex; /* ใช้ flexbox */
+    flex-direction: column; /* แนวตั้ง */
+    align-items: center; /* จัดกึ่งกลางในแนวนอน */
+    justify-content: center; /* จัดกึ่งกลางในแนวตั้ง */
+    height: 100vh; /* ให้มีความสูงเต็มหน้าจอ */
+    font-size: 30px;
+}
+
+.container {
+    border: 5px solid #c0a3d9; /* กรอบสีขาว */
+    padding: 20px; /* ระยะห่างภายใน */
+    border-radius: 10px; /* มุมโค้ง */
+    background-color: white; /* สีพื้นหลังเดียวกับ body */
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    border-collapse: collapse; /* รวบรวมขอบของตาราง */
+}
+
+.member, .movie, .actor {
+    display: inline-block; /* ใช้ inline-block เพื่อให้ปุ่มอยู่ในแถวเดียวกัน */
+    font-size: 25px;
+}
+
+.member {
+    background-color: #f8c3d1; /* ชมพูอ่อน */
+    color: #f8f8f8; /* สีข้อความเข้ม */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.member:hover {
+    background-color: #f29bba; /* สีชมพูเข้มเมื่อ hover */
+    color: #3b2e4c; /* สีข้อความเมื่อ hover */
+}
+
+.movie {
+    background-color: #a7c6e7; /* สีฟ้าอ่อน */
+    color: #f8f8f8; /* สีข้อความขาว */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.movie:hover {
+    background-color: #8cb8e0; /* สีฟ้าเข้มเมื่อ hover */
+    color: #3b2e4c; /* สีข้อความเมื่อ hover */
+}
+
+.actor {
+    background-color: #d2b48c; /* สีน้ำตาลอ่อน */
+    color: #f8f8f8; /* สีข้อความขาว */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.actor:hover {
+    background-color: #b89b6a; /* สีน้ำตาลเข้มเมื่อ hover */
+    color: #3b2e4c; /* สีข้อความเมื่อ hover */
+}

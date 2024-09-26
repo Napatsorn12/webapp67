@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table, td, th {
+    border: 1px solid #a2c2e6; /* สีขอบฟ้าอ่อน */
+    text-align: center;    
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;     
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    height: 50px;
+    background-color: #6fa3e0; /* สีพื้นหัวตารางฟ้า */
+    color: #ffffff; /* สีข้อความขาว */
+}
+
+body {
+    background-color: #e0f7fa; /* สีพื้นหลังฟ้าอ่อน */
+    color: #00796b; /* สีข้อความเข้ม */
+    text-align: center;
+    padding: 5px;
+    margin: 1rem;
+}
+
+tr:hover {
+    background-color: #b2ebf2; /* สีเมื่อ hover ฟ้าอ่อน */
+    color: #00796b; /* สีข้อความเมื่อ hover */
+}
+
+button {
+    background-color: #6fa3e0; /* สีพื้นปุ่มฟ้า */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #ffffff; /* สีพื้นเมื่อ hover */
+    color: #00796b; /* สีข้อความเมื่อ hover */
+}
+
+.button {
+    transition-duration: 1s;
+}
+
+.a {
+    background-color: #6fa3e0; /* สีพื้นลิงค์ฟ้า */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a:hover {
+    background-color: #ffffff; /* สีพื้นเมื่อ hover */
+    color: #00796b; /* สีข้อความเมื่อ hover */
+}
+
+form {
+    background-color: #ffffff; /* สีพื้นฟอร์มขาว */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+}

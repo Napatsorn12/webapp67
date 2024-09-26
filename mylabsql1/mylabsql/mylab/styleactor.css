@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table, td, th {
+    border: 1px solid #d9b8a0; /* เปลี่ยนเป็นสีอบอุ่น */
+    text-align: center;    
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;     
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    height: 50px;
+    background-color: #f1e3d3; /* สีอบอุ่น */
+    color: #a75d3e; /* สีอบอุ่น */
+}
+body {
+    background-color: #fbe6d3; /* สีพื้นหลังอบอุ่น */
+    color: #a75d3e; /* สีข้อความอบอุ่น */
+    text-align: center;
+    padding: 5px;
+    margin: 1rem;
+}
+tr:hover {
+    background-color: #c29f7e; /* สีเมื่อ hover เป็นโทนอบอุ่น */
+    color: #fbf2e6; /* สีข้อความเมื่อ hover */
+}
+button {
+    background-color: #a75d3e; /* สีพื้นปุ่ม */
+    color: #f1e3d3; /* สีข้อความปุ่ม */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #f1e3d3; /* สีพื้นเมื่อ hover */
+    color: #a75d3e; /* สีข้อความเมื่อ hover */
+}
+.a {
+    background-color: #a75d3e; /* สีพื้นปุ่มลิงค์ */
+    color: #f1e3d3; /* สีข้อความลิงค์ */
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a:hover {
+    background-color: #f1e3d3; /* สีพื้นเมื่อ hover */
+    color: #a75d3e; /* สีข้อความเมื่อ hover */
+}
+form {
+    background-color: #fef8f0; /* สีพื้นฟอร์มอบอุ่น */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+input {
+    width: 100%;
+}
